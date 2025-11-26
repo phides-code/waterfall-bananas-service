@@ -14,7 +14,7 @@ Resources:
       Cors:
         AllowMethods: "'OPTIONS, POST, GET, PUT, DELETE'"
         AllowHeaders: "'Content-Type, x-amz-content-sha256, x-amz-date, X-Amz-Security-Token, Authorization'"
-        AllowOrigin: "'FRONTEND_URL'" # replace with frontend URL
+        AllowOrigin: "'https://dg5he4hsd0zf7.cloudfront.net'" # replace with frontend URL
         AllowCredentials: true
 
       # Logging settings
